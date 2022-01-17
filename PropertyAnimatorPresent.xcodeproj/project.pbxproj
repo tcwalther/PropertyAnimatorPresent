@@ -13,6 +13,10 @@
 		E9CCA08D27956ADC00637B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CCA08B27956ADC00637B4A /* Main.storyboard */; };
 		E9CCA08F27956ADE00637B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CCA08E27956ADE00637B4A /* Assets.xcassets */; };
 		E9CCA09227956ADE00637B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CCA09027956ADE00637B4A /* LaunchScreen.storyboard */; };
+		E9CCA09A27956B0000637B4A /* PropertyAnimatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CCA09927956B0000637B4A /* PropertyAnimatorVC.swift */; };
+		E9CCA09C2795706700637B4A /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CCA09B2795706700637B4A /* AnimatedView.swift */; };
+		E9CCA09E279570C100637B4A /* KeyframeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CCA09D279570C100637B4A /* KeyframeAnimator.swift */; };
+		E9CCA0A0279570F200637B4A /* Notification Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CCA09F279570F200637B4A /* Notification Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E9CCA08E27956ADE00637B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CCA09127956ADE00637B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9CCA09327956ADE00637B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9CCA09927956B0000637B4A /* PropertyAnimatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAnimatorVC.swift; sourceTree = "<group>"; };
+		E9CCA09B2795706700637B4A /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
+		E9CCA09D279570C100637B4A /* KeyframeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimator.swift; sourceTree = "<group>"; };
+		E9CCA09F279570F200637B4A /* Notification Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,11 @@
 				E9CCA08B27956ADC00637B4A /* Main.storyboard */,
 				E9CCA08E27956ADE00637B4A /* Assets.xcassets */,
 				E9CCA09027956ADE00637B4A /* LaunchScreen.storyboard */,
+				E9CCA09F279570F200637B4A /* Notification Convenience.swift */,
 				E9CCA09327956ADE00637B4A /* Info.plist */,
+				E9CCA09927956B0000637B4A /* PropertyAnimatorVC.swift */,
+				E9CCA09B2795706700637B4A /* AnimatedView.swift */,
+				E9CCA09D279570C100637B4A /* KeyframeAnimator.swift */,
 			);
 			path = PropertyAnimatorPresent;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CCA09E279570C100637B4A /* KeyframeAnimator.swift in Sources */,
+				E9CCA0A0279570F200637B4A /* Notification Convenience.swift in Sources */,
+				E9CCA09C2795706700637B4A /* AnimatedView.swift in Sources */,
+				E9CCA09A27956B0000637B4A /* PropertyAnimatorVC.swift in Sources */,
 				E9CCA08A27956ADC00637B4A /* ViewController.swift in Sources */,
 				E9CCA08627956ADC00637B4A /* AppDelegate.swift in Sources */,
 				E9CCA08827956ADC00637B4A /* SceneDelegate.swift in Sources */,
